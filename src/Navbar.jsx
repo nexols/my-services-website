@@ -12,13 +12,13 @@ const Navbar = () => {
   };
   return (
     <>
-      <div className="container-fluid">
+      <div className="container">
         <div className="row">
-          <div className="col-10 mx-auto">
+          <div className="col-12">
             <nav className="navbar navbar-expand-lg bg">
               <div className="container-fluid">
                 <NavLink className="navbar-brand logo" to="/">
-                  XYZ Company
+                  Company
                 </NavLink>
                 <button
                   className="navbar-toggler"

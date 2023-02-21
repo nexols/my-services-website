@@ -1,7 +1,18 @@
 import React from "react";
+import Common from "./Common";
+import abtimg from "../src/graphics/about.png";
 
-const About = () => {
-  return <h1>This is About page!</h1>;
+const Home = () => {
+  return (
+    <>
+      <Common
+        name="Grow your business with"
+        imgsrc={abtimg}
+        visit="/contact"
+        btnname="Contact Us"
+      />
+    </>
+  );
 };
 
-export default About;
+export default Home;

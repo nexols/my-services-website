@@ -1,7 +1,18 @@
 import React from "react";
+import Common from "./Common";
+import servimg from "../src/graphics/services.png";
 
-const Services = () => {
-  return <h1>This is Services page!</h1>;
+const Home = () => {
+  return (
+    <>
+      <Common
+        name="Grow your business with"
+        imgsrc={servimg}
+        visit="/contact"
+        btnname="Contact Us"
+      />
+    </>
+  );
 };
 
-export default Services;
+export default Home;
