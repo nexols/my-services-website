@@ -18,7 +18,7 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg bg">
               <div className="container-fluid">
                 <NavLink className="navbar-brand logo" to="/">
-                  Services Website
+                  XYZ Company
                 </NavLink>
                 <button
                   className="navbar-toggler"
