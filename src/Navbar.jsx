@@ -35,7 +35,7 @@ const Navbar = () => {
                   className="collapse navbar-collapse"
                   id="navbarNavAltMarkup"
                 >
-                  <div className="navbar-nav ms-auto">
+                  <div className="navbar-nav ms-auto text-center">
                     <NavLink
                       style={navStyle}
                       className="nav-link"
