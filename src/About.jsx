@@ -1,6 +1,6 @@
 import React from "react";
 import Common from "./Common";
-import abtimg from "../src/graphics/about.png";
+import abtimg from "../src/graphics/images/about.png";
 
 const Home = () => {
   return (
