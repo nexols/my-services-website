@@ -1,22 +1,27 @@
 import React from "react";
 import smile from "./graphics/smile.png";
+import { useNavigate } from "react-router-dom";
 
 const Error = () => {
+  const navigateBack = useNavigate();
   return (
     <>
       <div
-        className="text-center"
+        className="container text-center"
         style={{
           marginTop: "250px",
-          marginBottom: "300px",
+          marginBottom: "250px",
           fontSize: "35px",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
         }}
       >
-        Under Construction!{" "}
-        <img src={smile} style={{ width: "30px", marginLeft: "13px" }} />
+        Under Construction!
+        <img src={smile} style={{ width: "30px", marginLeft: "13px" }} /> <br />
+        <button
+          className="btn btn-outline-primary"
+          onClick={() => navigateBack("/services")}
+        >
+          Go back
+        </button>
       </div>
     </>
   );
