@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "@mui/material/Button";
 import "./common.css";
 
 import { NavLink } from "react-router-dom";
@@ -26,7 +25,9 @@ const Common = (props) => {
                 </h4>
                 <div>
                   <NavLink to={props.visit} style={btnStyle}>
-                    <Button variant="outlined">{props.btnname}</Button>
+                    <button className="btn btn-outline-primary">
+                      {props.btnname}
+                    </button>
                   </NavLink>
                 </div>
               </div>

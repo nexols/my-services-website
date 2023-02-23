@@ -1,23 +1,26 @@
 import React from "react";
+import "./card.css";
+import { NavLink } from "react-router-dom";
 
 const Card = (props) => {
   return (
     <>
-      <div className="col-md-4 col-10 ">
-        <div
-          className="card d-flex align-items-center pt-4"
-          style={{ width: "18rem" }}
-        >
+      <div className="col-md-4 col-sm-6 gy-4">
+        <div className="card d-flex align-items-center">
           <img
             src={props.imgsrc}
-            className="card-img-top w-25"
+            className="card-img-top"
             alt={props.imgsrc}
+            style={{ width: "50px" }}
           />
           <div className="card-body text-center">
             <h5 className="card-title fw-bold">{props.title}</h5>
             <p className="card-text">
-              Some quick example text to for the service.
+              Some quick example text for the service.
             </p>
+            <NavLink to="*">
+              <button className="btn btn-outline-primary">Learn More</button>
+            </NavLink>
           </div>
         </div>
       </div>

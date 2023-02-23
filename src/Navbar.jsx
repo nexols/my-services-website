@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./navbar.css";
+import logo from "./graphics/logo.png";
 
 const Navbar = () => {
   const navStyle = ({ isActive }) => {
@@ -18,7 +19,7 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg bg">
               <div className="container-fluid">
                 <NavLink className="navbar-brand logo" to="/">
-                  Company
+                  <img src={logo} style={{ width: "45px" }} />
                 </NavLink>
                 <button
                   className="navbar-toggler"

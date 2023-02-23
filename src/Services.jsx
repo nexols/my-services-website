@@ -6,17 +6,15 @@ const Services = () => {
   return (
     <>
       <div>
-        <h1 className="text-center mt-5">Our Sevices</h1>
+        <h1 className="text-center mt-5" style={{ color: "#1976d2" }}>
+          Our Sevices
+        </h1>
       </div>
-      <div className="container mt-5">
+      <div className="container">
         <div className="row">
-          <div className="col-10 mx-auto">
-            <div className="row gy-4">
-              {Sdata.map((val, ind) => {
-                return <Card key={ind} imgsrc={val.imgsrc} title={val.title} />;
-              })}
-            </div>
-          </div>
+          {Sdata.map((val, ind) => {
+            return <Card key={ind} imgsrc={val.imgsrc} title={val.title} />;
+          })}
         </div>
       </div>
     </>
