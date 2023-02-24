@@ -10,7 +10,7 @@ const Footer = () => {
         className="text-center d-flex justify-content-center"
         style={{ color: "#1976d2" }}
       >
-        <p className="me-2">All Rights Reserved &copy; {year} </p>
+        <p className="me-2" id="first-para">All Rights Reserved &copy; {year} </p>
         <span className="me-2">|</span>
         <p>Terms & Conditions</p>
       </footer>

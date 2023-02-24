@@ -1,3 +1,15 @@
 footer {
   margin-top: 80px;
 }
+
+@media (max-width: 575px) {
+  span {
+    display: none;
+  }
+  footer {
+    flex-direction: column;
+  }
+  #first-para {
+    order: 1;
+  }
+}

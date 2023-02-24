@@ -19,7 +19,12 @@ const Card = (props) => {
               Some quick example text for the service.
             </p>
             <NavLink to="*">
-              <button className="btn btn-outline-primary">Learn More</button>
+              <button
+                className="btn btn-outline-primary"
+                style={{ transition: "0.5s" }}
+              >
+                Learn More
+              </button>
             </NavLink>
           </div>
         </div>

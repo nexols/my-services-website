@@ -19,6 +19,7 @@ const Error = () => {
         <button
           className="btn btn-outline-primary"
           onClick={() => navigateBack("/services")}
+          style={{ transition: "0.5s" }}
         >
           Go back
         </button>

@@ -25,7 +25,10 @@ const Common = (props) => {
                 </h4>
                 <div>
                   <NavLink to={props.visit} style={btnStyle}>
-                    <button className="btn btn-outline-primary">
+                    <button
+                      className="btn btn-outline-primary"
+                      style={{ transition: "0.5s" }}
+                    >
                       {props.btnname}
                     </button>
                   </NavLink>

@@ -95,7 +95,11 @@ const Contact = () => {
                   value={data.message}
                 />
               </div>
-              <button type="submit" class="btn btn-outline-primary">
+              <button
+                type="submit"
+                class="btn btn-outline-primary"
+                style={{ transition: "0.5s" }}
+              >
                 Submit
               </button>
             </form>
