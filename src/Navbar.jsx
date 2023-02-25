@@ -7,8 +7,6 @@ const Navbar = () => {
   const navStyle = ({ isActive }) => {
     return {
       fontWeight: isActive ? "bolder" : "normal",
-      textDecoration: isActive ? "underline" : "none",
-      paddingBottom: "10px",
     };
   };
   return (
@@ -19,7 +17,7 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg bg">
               <div className="container-fluid">
                 <NavLink className="navbar-brand logo" to="/">
-                  <img src={logo} style={{ width: "45px" }} />
+                  <img src={logo} alt="logo" style={{ width: "45px" }} />
                 </NavLink>
                 <button
                   className="navbar-toggler"
@@ -36,21 +34,28 @@ const Navbar = () => {
                   className="collapse navbar-collapse"
                   id="navbarNavAltMarkup"
                 >
-                  <div className="navbar-nav ms-auto text-center">
+                  <div className="navbar navbar-nav ms-auto text-center">
                     <NavLink
                       style={navStyle}
                       className="nav-link"
+                      id="nav1"
                       aria-current="page"
                       to="/"
                     >
                       Home
                     </NavLink>
-                    <NavLink style={navStyle} className="nav-link" to="/about">
+                    <NavLink
+                      style={navStyle}
+                      className="nav-link"
+                      to="/about"
+                      id="nav2"
+                    >
                       About
                     </NavLink>
                     <NavLink
                       style={navStyle}
                       className="nav-link"
+                      id="nav3"
                       to="/services"
                     >
                       Services
@@ -58,6 +63,7 @@ const Navbar = () => {
                     <NavLink
                       style={navStyle}
                       className="nav-link"
+                      id="nav4"
                       to="/contact"
                     >
                       Contact

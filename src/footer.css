@@ -13,3 +13,7 @@ footer {
     order: 1;
   }
 }
+
+footer .terms:hover {
+  text-shadow: blue 10px 11px 101px 11px !important;
+}

@@ -53,7 +53,7 @@ const Contact = () => {
                   Phone
                 </label>
                 <input
-                  type="number"
+                  type="tel"
                   className="form-control"
                   id="phone"
                   placeholder="Contact Number"
