@@ -1,5 +1,6 @@
 footer {
   margin-top: 80px;
+  color: #1976d2;
 }
 
 @media (max-width: 575px) {
@@ -12,8 +13,4 @@ footer {
   #first-para {
     order: 1;
   }
-}
-
-footer .terms:hover {
-  text-shadow: blue 10px 11px 101px 11px !important;
 }
