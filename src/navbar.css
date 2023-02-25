@@ -8,63 +8,68 @@
   color: #1976d2 !important;
 }
 
+@media (min-width: 992px) {
+  #nav1:after {
+    content: "";
+    position: absolute;
+    background-color: #1976d2;
+    height: 3px;
+    bottom: 16px;
+    left: 6px;
+    width: 0;
+    transition: all ease-in 0.3s;
+  }
+  #nav1:hover:after {
+    width: 50px;
+  }
+
+  #nav2:after {
+    content: "";
+    position: absolute;
+    background-color: #1976d2;
+    height: 3px;
+    bottom: 16px;
+    left: 66px;
+    width: 0;
+    transition: all ease-in 0.3s;
+  }
+  #nav2:hover:after {
+    width: 50px;
+  }
+
+  #nav3:after {
+    content: "";
+    position: absolute;
+    background-color: #1976d2;
+    height: 3px;
+    bottom: 16px;
+    left: 126px;
+    width: 0;
+    transition: all ease-in 0.3s;
+  }
+  #nav3:hover:after {
+    width: 65px;
+  }
+
+  #nav4:after {
+    content: "";
+    position: absolute;
+    background-color: #1976d2;
+    height: 3px;
+    bottom: 16px;
+    left: 203px;
+    width: 0;
+    transition: all ease-in 0.3s;
+  }
+  #nav4:hover:after {
+    width: 61px;
+  }
+}
 .navbar-toggler {
-  background-color: #1a77d23b !important;
-  border: 1px solid rgb(25 118 210 / 70%) !important;
+  border: none !important;
+  background: none !important;
 }
 
-#nav1:after {
-  content: "";
-  position: absolute;
-  background-color: #1976d2;
-  height: 3px;
-  bottom: 16px;
-  left: 6px;
-  width: 0;
-  transition: all ease-in 0.3s;
-}
-#nav1:hover:after {
-  width: 50px;
-}
-
-#nav2:after {
-  content: "";
-  position: absolute;
-  background-color: #1976d2;
-  height: 3px;
-  bottom: 16px;
-  left: 66px;
-  width: 0;
-  transition: all ease-in 0.3s;
-}
-#nav2:hover:after {
-  width: 50px;
-}
-
-#nav3:after {
-  content: "";
-  position: absolute;
-  background-color: #1976d2;
-  height: 3px;
-  bottom: 16px;
-  left: 126px;
-  width: 0;
-  transition: all ease-in 0.3s;
-}
-#nav3:hover:after {
-  width: 65px;
-}
-
-#nav4:after {
-  content: "";
-  position: absolute;
-  background-color: #1976d2;
-  height: 3px;
-  bottom: 16px;
-  left: 203px;
-  width: 0;
-  transition: all ease-in 0.3s;
-}
-#nav4:hover:after {
-  width: 61px;
+.navbar-toggler-icon {
+  background-image: url(./graphics/toggle.png) !important;
 }
