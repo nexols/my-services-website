@@ -7,6 +7,7 @@ import Navbar from "./Navbar";
 import About from "./About";
 import Footer from "./Footer";
 import Error from "./Error";
+import Submitted from "./formSub";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Route exact path="/services" element={<Services />} />
         <Route exact path="/contact" element={<Contact />} />
         <Route path="*" element={<Error />} />
+        <Route path="/formSub" element={<Submitted />} />
       </Routes>
 
       <Footer />

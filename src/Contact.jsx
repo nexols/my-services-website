@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import Submitted from "./formSub";
+import { NavLink } from "react-router-dom";
 
 const Contact = () => {
   const [data, setData] = useState({
@@ -20,7 +22,6 @@ const Contact = () => {
 
   const formSubmit = (e) => {
     e.preventDefault();
-    alert(`Thank you ${data.fullname}! Form has been submitted.`);
   };
 
   return (
@@ -95,13 +96,15 @@ const Contact = () => {
                   value={data.message}
                 />
               </div>
-              <button
-                type="submit"
-                class="btn btn-outline-primary"
-                style={{ transition: "0.5s" }}
-              >
-                Submit
-              </button>
+              <NavLink to="/formSub" element={<Submitted />}>
+                <button
+                  type="submit"
+                  class="btn btn-outline-primary"
+                  style={{ transition: "0.5s" }}
+                >
+                  Submit
+                </button>
+              </NavLink>
             </form>
           </div>
         </div>

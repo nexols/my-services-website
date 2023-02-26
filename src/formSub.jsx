@@ -1,9 +1,9 @@
 import React from "react";
-import smile from "./graphics/smile.png";
 import { useNavigate } from "react-router-dom";
 
-const Error = () => {
+const Submitted = () => {
   const navigateBack = useNavigate();
+
   return (
     <>
       <div
@@ -14,23 +14,17 @@ const Error = () => {
           fontSize: "35px",
         }}
       >
-        Under Construction!
-        <img
-          src={smile}
-          style={{ width: "30px", marginLeft: "13px" }}
-          alt="smile"
-        />{" "}
-        <br />
+        Your form has been sumitted 😀. Thank you for your time! <br />
         <button
-          className="btn btn-outline-primary"
-          onClick={() => navigateBack("/services")}
+          className="btn btn-outline-primary mt-4"
+          onClick={() => navigateBack("/")}
           style={{ transition: "0.5s" }}
         >
-          Go back
+          Back to main
         </button>
       </div>
     </>
   );
 };
 
-export default Error;
+export default Submitted;
