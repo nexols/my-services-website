@@ -18,7 +18,7 @@ const Error = () => {
         <img src={smile} style={{ width: "30px", marginLeft: "13px" }} /> <br />
         <button
           className="btn btn-outline-primary"
-          onClick={() => navigateBack("/")}
+          onClick={() => navigateBack("/services")}
           style={{ transition: "0.5s" }}
         >
           Go back
