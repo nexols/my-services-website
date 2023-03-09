@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/my-services-website/static/css/main.2c7b9730.css",
-    "main.js": "/my-services-website/static/js/main.db0ff308.js",
-    "static/media/coding.png": "/my-services-website/static/media/coding.cd3b4af6b547cdbae8ca.png",
-    "static/media/about.png": "/my-services-website/static/media/about.f52c09942871705854da.png",
-    "static/media/logo.png": "/my-services-website/static/media/logo.b955e7e12df3a2feff09.png",
-    "static/media/strategy.png": "/my-services-website/static/media/strategy.19d65146174d56805c10.png",
-    "static/media/iot.png": "/my-services-website/static/media/iot.ece82a1bd16f552a0b66.png",
-    "static/media/social.png": "/my-services-website/static/media/social.330ebef08632b8113e40.png",
-    "static/media/smile.png": "/my-services-website/static/media/smile.cf2cbe7a47e8066433fc.png",
-    "static/media/ecommerce.png": "/my-services-website/static/media/ecommerce.9d5dd5cd17400acd1b25.png",
-    "static/media/transformation.png": "/my-services-website/static/media/transformation.fb5ef5b9c3afd2dabb91.png",
-    "index.html": "/my-services-website/index.html",
-    "main.2c7b9730.css.map": "/my-services-website/static/css/main.2c7b9730.css.map",
-    "main.db0ff308.js.map": "/my-services-website/static/js/main.db0ff308.js.map"
+    "main.css": "/static/css/main.2c7b9730.css",
+    "main.js": "/static/js/main.c2e87fb2.js",
+    "static/media/coding.png": "/static/media/coding.cd3b4af6b547cdbae8ca.png",
+    "static/media/about.png": "/static/media/about.f52c09942871705854da.png",
+    "static/media/logo.png": "/static/media/logo.b955e7e12df3a2feff09.png",
+    "static/media/strategy.png": "/static/media/strategy.19d65146174d56805c10.png",
+    "static/media/iot.png": "/static/media/iot.ece82a1bd16f552a0b66.png",
+    "static/media/social.png": "/static/media/social.330ebef08632b8113e40.png",
+    "static/media/smile.png": "/static/media/smile.cf2cbe7a47e8066433fc.png",
+    "static/media/ecommerce.png": "/static/media/ecommerce.9d5dd5cd17400acd1b25.png",
+    "static/media/transformation.png": "/static/media/transformation.fb5ef5b9c3afd2dabb91.png",
+    "index.html": "/index.html",
+    "main.2c7b9730.css.map": "/static/css/main.2c7b9730.css.map",
+    "main.c2e87fb2.js.map": "/static/js/main.c2e87fb2.js.map"
   },
   "entrypoints": [
     "static/css/main.2c7b9730.css",
-    "static/js/main.db0ff308.js"
+    "static/js/main.c2e87fb2.js"
   ]
 }
