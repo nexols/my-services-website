@@ -2,6 +2,7 @@ import React from "react";
 import Common from "./Common";
 import homeimg from "../src/graphics/images/coding.png";
 
+
 const Home = () => {
   return (
     <>
