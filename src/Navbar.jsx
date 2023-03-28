@@ -19,7 +19,7 @@ const Navbar = () => {
                 <NavLink className="navbar-brand logo" to="/">
                   <img
                     src={image}
-                    style={{ width: "auto", height: "70px" }}
+                    style={{ width: "auto", height: "95px", marginTop: "10px" }}
                     alt=""
                   />
                 </NavLink>
