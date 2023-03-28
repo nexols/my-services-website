@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./navbar.css";
+import image from "./graphics/logo.png";
 
 const Navbar = () => {
   const navStyle = ({ isActive }) => {
@@ -16,7 +17,11 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg bg">
               <div className="container-fluid">
                 <NavLink className="navbar-brand logo" to="/">
-                  <h1>Nexols</h1>
+                  <img
+                    src={image}
+                    style={{ width: "auto", height: "70px" }}
+                    alt=""
+                  />
                 </NavLink>
                 <button
                   className="navbar-toggler"
