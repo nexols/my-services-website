@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 import { NavLink } from "react-router-dom";
+import contactImg from "./graphics/images/Banners/contact.jpg";
 
 const Contact = () => {
   const [data, setData] = useState({
@@ -31,9 +32,9 @@ const Contact = () => {
   return (
     <>
       <div>
-        <h1 className="text-center mt-5" style={{ color: "#1976d2" }}>
-          Contact Us
-        </h1>
+        <div>
+          <img className="w-100 p-0 m-0" src={contactImg} alt="" />
+        </div>
       </div>
       <div className="container">
         <div className="row d-flex justify-content-center mt-5">

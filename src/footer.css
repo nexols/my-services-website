@@ -1,6 +1,12 @@
 footer {
   margin-top: 57px;
   color: #1976d2;
+  padding: 30px;
+  background-image: url(./graphics/navbar.jpg);
+}
+
+footer p {
+  margin-bottom: 0 !important;
 }
 
 @media (max-width: 575px) {

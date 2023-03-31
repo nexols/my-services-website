@@ -18,7 +18,7 @@ const Common = (props) => {
               <div>
                 <h1>
                   {props.name}
-                  <strong className="name-strong"> XYZ Company</strong>
+                  <strong className="name-strong"> Nexols</strong>
                 </h1>
                 <h4 className="my-4">
                   We are a team of talented developers making Web Apps

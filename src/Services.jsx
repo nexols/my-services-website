@@ -1,14 +1,13 @@
 import React from "react";
 import Card from "./Card";
 import Sdata from "./Sdata";
+import serviceImg from "./graphics/images/Banners/services.jpg";
 
 const Services = () => {
   return (
     <>
       <div>
-        <h1 className="text-center mt-5" style={{ color: "#1976d2" }}>
-          Our Sevices
-        </h1>
+        <img className="w-100 p-0 m-0" src={serviceImg} alt="" />
       </div>
       <div className="container">
         <div className="row">

@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
 
+.navbar-main {
+  background-image: url(./graphics/navbar.jpg);
+}
+
 .logo h1 {
   font-family: "Rampart One", cursive !important;
   font-size: 50px !important;
@@ -23,7 +27,7 @@
     background-color: #1976d2;
     height: 3px;
     bottom: 16px;
-    left: 6px;
+    left: 5px;
     width: 0;
     transition: all ease-in 0.3s;
   }
@@ -37,7 +41,7 @@
     background-color: #1976d2;
     height: 3px;
     bottom: 16px;
-    left: 66px;
+    left: 65px;
     width: 0;
     transition: all ease-in 0.3s;
   }
@@ -65,12 +69,25 @@
     background-color: #1976d2;
     height: 3px;
     bottom: 16px;
-    left: 203px;
+    left: 202px;
     width: 0;
     transition: all ease-in 0.3s;
   }
   #nav4:hover:after {
-    width: 61px;
+    width: 69px;
+  }
+  #nav5:after {
+    content: "";
+    position: absolute;
+    background-color: #1976d2;
+    height: 3px;
+    bottom: 16px;
+    left: 283px;
+    width: 0;
+    transition: all ease-in 0.3s;
+  }
+  #nav5:hover:after {
+    width: 63px;
   }
 }
 .navbar-toggler {

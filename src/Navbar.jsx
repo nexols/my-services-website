@@ -11,71 +11,85 @@ const Navbar = () => {
   };
   return (
     <>
-      <div className="container">
-        <div className="row">
-          <div className="col-12">
-            <nav className="navbar navbar-expand-lg bg">
-              <div className="container-fluid">
-                <NavLink className="navbar-brand logo" to="/">
-                  <img
-                    src={image}
-                    style={{ width: "auto", height: "95px", marginTop: "10px" }}
-                    alt=""
-                  />
-                </NavLink>
-                <button
-                  className="navbar-toggler"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarNavAltMarkup"
-                  aria-controls="navbarNavAltMarkup"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span className="navbar-toggler-icon"></span>
-                </button>
-                <div
-                  className="collapse navbar-collapse"
-                  id="navbarNavAltMarkup"
-                >
-                  <div className="navbar navbar-nav ms-auto text-center">
-                    <NavLink
-                      style={navStyle}
-                      className="nav-link"
-                      id="nav1"
-                      aria-current="page"
-                      to="/"
-                    >
-                      Home
-                    </NavLink>
-                    <NavLink
-                      style={navStyle}
-                      className="nav-link"
-                      to="/about"
-                      id="nav2"
-                    >
-                      About
-                    </NavLink>
-                    <NavLink
-                      style={navStyle}
-                      className="nav-link"
-                      id="nav3"
-                      to="/services"
-                    >
-                      Services
-                    </NavLink>
-                    <NavLink
-                      style={navStyle}
-                      className="nav-link"
-                      id="nav4"
-                      to="/contact"
-                    >
-                      Contact
-                    </NavLink>
+      <div className="navbar-main">
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <nav className="navbar navbar-expand-lg bg">
+                <div className="container-fluid">
+                  <NavLink className="navbar-brand logo" to="/">
+                    <img
+                      src={image}
+                      style={{
+                        width: "auto",
+                        height: "95px",
+                        marginTop: "10px",
+                      }}
+                      alt=""
+                    />
+                  </NavLink>
+                  <button
+                    className="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span className="navbar-toggler-icon"></span>
+                  </button>
+                  <div
+                    className="collapse navbar-collapse"
+                    id="navbarNavAltMarkup"
+                  >
+                    <div className="navbar navbar-nav ms-auto text-center">
+                      <NavLink
+                        style={navStyle}
+                        className="nav-link"
+                        id="nav1"
+                        aria-current="page"
+                        to="/"
+                      >
+                        Home
+                      </NavLink>
+                      <NavLink
+                        style={navStyle}
+                        className="nav-link"
+                        to="/about"
+                        id="nav2"
+                      >
+                        About
+                      </NavLink>
+                      <NavLink
+                        style={navStyle}
+                        className="nav-link"
+                        id="nav3"
+                        to="/services"
+                      >
+                        Services
+                      </NavLink>
+                      <NavLink
+                        style={navStyle}
+                        className="nav-link"
+                        id="nav4"
+                        to="*"
+                      >
+                        Portfolio
+                      </NavLink>
+                      <NavLink
+                        style={navStyle}
+                        className="nav-link"
+                        id="nav5"
+                        to="/contact"
+                      >
+                        Contact
+                      </NavLink>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </nav>
+              </nav>
+            </div>
           </div>
         </div>
       </div>
