@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.d958a362.css",
-    "main.js": "/static/js/main.20924473.js",
+    "main.css": "/static/css/main.7413a5c8.css",
+    "main.js": "/static/js/main.988b7463.js",
+    "static/media/contact.jpg": "/static/media/contact.65e830d0fa8bcdba2460.jpg",
+    "static/media/services.jpg": "/static/media/services.4baa576abe46f5085e95.jpg",
     "static/media/coding.png": "/static/media/coding.cd3b4af6b547cdbae8ca.png",
     "static/media/about.png": "/static/media/about.f52c09942871705854da.png",
     "static/media/logo.png": "/static/media/logo.7f0eed59c7bec279a854.png",
+    "static/media/navbar.jpg": "/static/media/navbar.948c83ea2cf93bf1a1dc.jpg",
     "static/media/strategy.png": "/static/media/strategy.19d65146174d56805c10.png",
     "static/media/iot.png": "/static/media/iot.ece82a1bd16f552a0b66.png",
     "static/media/social.png": "/static/media/social.330ebef08632b8113e40.png",
@@ -12,11 +15,11 @@
     "static/media/ecommerce.png": "/static/media/ecommerce.9d5dd5cd17400acd1b25.png",
     "static/media/transformation.png": "/static/media/transformation.fb5ef5b9c3afd2dabb91.png",
     "index.html": "/index.html",
-    "main.d958a362.css.map": "/static/css/main.d958a362.css.map",
-    "main.20924473.js.map": "/static/js/main.20924473.js.map"
+    "main.7413a5c8.css.map": "/static/css/main.7413a5c8.css.map",
+    "main.988b7463.js.map": "/static/js/main.988b7463.js.map"
   },
   "entrypoints": [
-    "static/css/main.d958a362.css",
-    "static/js/main.20924473.js"
+    "static/css/main.7413a5c8.css",
+    "static/js/main.988b7463.js"
   ]
 }
