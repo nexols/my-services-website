@@ -17,7 +17,7 @@ const Footer = () => {
     <>
       <footer
         className="text-center d-flex justify-content-center"
-        style={{ color: "#1976d2" }}
+        style={{ color: "#ffff" }}
       >
         <p className="me-2" id="first-para">
           All Rights Reserved &copy; {year}{" "}

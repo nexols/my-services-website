@@ -2,8 +2,31 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "./navbar.css";
 import image from "./graphics/logo.png";
+import toggle from "./graphics/toggle.png";
 
 const Navbar = () => {
+  // *** dropdown ***
+
+  const [isOpen, setIsOpen] = React.useState();
+
+  const toggleDropdown = () => setIsOpen(!isOpen);
+
+  const timeoutRef = React.useRef(null);
+
+  const handleMouseLeave = () => {
+    return (timeoutRef.current = setTimeout(() => {
+      setIsOpen(false);
+    }, 100));
+  };
+  const handleContentMouseEnter = () => {
+    clearTimeout(timeoutRef.current);
+  };
+  const handleContentMouseLeave = () => {
+    setIsOpen(false);
+  };
+
+  // *** dropdown ***
+
   const navStyle = ({ isActive }) => {
     return {
       fontWeight: isActive ? "bolder" : "normal",
@@ -67,8 +90,39 @@ const Navbar = () => {
                         id="nav3"
                         to="/services"
                       >
-                        Services
+                        Services &nbsp;
+                        <span
+                          onMouseEnter={toggleDropdown}
+                          onMouseLeave={handleMouseLeave}
+                          style={{ color: "black" }}
+                        >
+                          <img
+                            src={toggle}
+                            style={{ height: "auto", width: "13px" }}
+                            alt="toggle"
+                          />
+                        </span>
+                        <div className="services-dropdown">
+                          {isOpen && (
+                            <div
+                              onMouseEnter={handleContentMouseEnter}
+                              onMouseLeave={handleContentMouseLeave}
+                              className="dropdown-content"
+                            >
+                              <li id="first">
+                                <NavLink to="*">Web Development</NavLink>
+                              </li>
+                              <li>
+                                <NavLink to="*">Digital Marketing</NavLink>
+                              </li>
+                              <li id="second">
+                                <NavLink to="*">Solutions</NavLink>
+                              </li>
+                            </div>
+                          )}
+                        </div>
                       </NavLink>
+
                       <NavLink
                         style={navStyle}
                         className="nav-link"

@@ -12,6 +12,7 @@ import Submitted from "./formSub";
 const App = () => {
   return (
     <>
+    
       <Navbar />
 
       <Routes>

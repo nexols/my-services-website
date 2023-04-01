@@ -1,8 +1,8 @@
 footer {
-  margin-top: 57px;
-  color: #1976d2;
+  margin-top: 150px;
+  color: #ffff;
   padding: 30px;
-  background-image: url(./graphics/navbar.jpg);
+  background-image: url(./graphics/navbar.png);
 }
 
 footer p {
@@ -22,5 +22,5 @@ footer p {
 }
 
 .terms {
-  color: #1976d2;
+  color: #ffff;
 }

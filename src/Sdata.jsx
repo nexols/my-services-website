@@ -1,41 +1,46 @@
 import coding from "./graphics/ions/coding.png";
-import ecommerce from "./graphics/ions/ecommerce.png";
-import iot from "./graphics/ions/iot.png";
+// import ecommerce from "./graphics/ions/ecommerce.png";
+// import iot from "./graphics/ions/iot.png";
 import social from "./graphics/ions/social.png";
 import strategy from "./graphics/ions/strategy.png";
-import transformation from "./graphics/ions/transformation.png";
+// import transformation from "./graphics/ions/transformation.png";
 
 const Sdata = [
   {
     imgsrc: coding,
-    title: "Application Development",
+    title: "Web Development",
+    description:
+      "Our web development company specializes in creating and maintaining high-quality websites and web applications for businesses and individuals using cutting-edge technologies.",
   },
 
-  {
-    imgsrc: iot,
-    title: "IoT Development",
-  },
+  // {
+  //   imgsrc: iot,
+  //   title: "IoT Development",
+  // },
 
-  {
-    imgsrc: ecommerce,
-    title: "eCommerce Development",
-  },
+  // {
+  //   imgsrc: ecommerce,
+  //   title: "eCommerce Development",
+  // },
 
   {
     imgsrc: social,
     title: "Digital Marketing",
+    description:
+      "We provide comprehensive digital marketing services to help businesses reach and engage with their target audience through various online channels.",
   },
 
-  {
-    imgsrc: transformation,
-    title: "Digital Transformation",
-  },
+  // {
+  //   imgsrc: transformation,
+  //   title: "Digital Transformation",
+  // },
 
   {
     imgsrc: strategy,
-    title: "Technology Strategy",
+    title: "Digital Solutions",
+    description:
+      "We offer a range of digital solutions to help businesses enhance their operations, improve efficiency, and achieve their goals through innovative technology.",
   },
 ];
-
 
 export default Sdata;

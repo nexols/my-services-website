@@ -1,17 +1,40 @@
 @import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
 
 .navbar-main {
-  background-image: url(./graphics/navbar.jpg);
-}
-
-.logo h1 {
-  font-family: "Rampart One", cursive !important;
-  font-size: 50px !important;
-  color: #1976d2 !important;
+  background-image: url(./graphics/navbar.png);
 }
 
 .nav-link {
-  color: #1976d2 !important;
+  color: #ffff !important;
+}
+
+.services-dropdown {
+  position: absolute;
+  top: 50px;
+  background-color: rgba(123, 123, 123, 0.588);
+  border-radius: 10px;
+}
+.services-dropdown li {
+  padding: 0 20px 0 20px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.services-dropdown li a {
+  color: #ffff;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.services-dropdown li a:hover {
+  text-decoration: underline;
+}
+
+#first {
+  padding-top: 10px;
+}
+#second {
+  padding-bottom: 10px;
 }
 
 @media (max-width: 425px) {
@@ -19,12 +42,89 @@
     font-size: 40px !important;
   }
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  .services-dropdown {
+    position: absolute;
+    top: 88px;
+    right: 107px;
+  }
+}
+@media (min-width: 450px) and (max-width: 767px) {
+  .services-dropdown {
+    position: absolute;
+    top: 88px;
+    right: 15px;
+  }
+}
+@media (min-width: 408px) and (max-width: 501px) {
+  .services-dropdown {
+    position: absolute;
+    top: 100px;
+    right: 40px;
+  }
+  .services-dropdown li a {
+    font-size: 10px;
+  }
+  .services-dropdown li {
+    padding: 0 10px 0 10px;
+    text-align: left;
+    text-decoration: none;
+  }
+  #first {
+    padding-top: 5px;
+  }
+  #second {
+    padding-bottom: 5px;
+  }
+}
+@media (min-width: 430px) and (max-width: 500px) {
+  .services-dropdown {
+    position: absolute;
+    top: 80px;
+    right: 50px;
+  }
+  .services-dropdown li a {
+    font-size: 10px;
+  }
+  .services-dropdown li {
+    padding: 0 10px 0 10px;
+    text-align: left;
+    text-decoration: none;
+  }
+  #first {
+    padding-top: 5px;
+  }
+  #second {
+    padding-bottom: 5px;
+  }
+}
+@media (min-width: 0px) and (max-width: 429px) {
+  .services-dropdown {
+    position: absolute;
+    top: 80px;
+    right: 0px;
+  }
+  .services-dropdown li a {
+    font-size: 10px;
+  }
+  .services-dropdown li {
+    padding: 0 10px 0 10px;
+    text-align: left;
+    text-decoration: none;
+  }
+  #first {
+    padding-top: 5px;
+  }
+  #second {
+    padding-bottom: 5px;
+  }
+}
 
 @media (min-width: 992px) {
   #nav1:after {
     content: "";
     position: absolute;
-    background-color: #1976d2;
+    background-color: #ffff;
     height: 3px;
     bottom: 16px;
     left: 5px;
@@ -38,7 +138,7 @@
   #nav2:after {
     content: "";
     position: absolute;
-    background-color: #1976d2;
+    background-color: #ffff;
     height: 3px;
     bottom: 16px;
     left: 65px;
@@ -52,7 +152,7 @@
   #nav3:after {
     content: "";
     position: absolute;
-    background-color: #1976d2;
+    background-color: #ffff;
     height: 3px;
     bottom: 16px;
     left: 126px;
@@ -66,23 +166,23 @@
   #nav4:after {
     content: "";
     position: absolute;
-    background-color: #1976d2;
+    background-color: #ffff;
     height: 3px;
     bottom: 16px;
-    left: 202px;
+    left: 226px;
     width: 0;
     transition: all ease-in 0.3s;
   }
   #nav4:hover:after {
-    width: 69px;
+    width: 70px;
   }
   #nav5:after {
     content: "";
     position: absolute;
-    background-color: #1976d2;
+    background-color: #ffff;
     height: 3px;
     bottom: 16px;
-    left: 283px;
+    left: 307px;
     width: 0;
     transition: all ease-in 0.3s;
   }
@@ -97,4 +197,5 @@
 
 .navbar-toggler-icon {
   background-image: url(./graphics/toggle.png) !important;
+  background-size: 20px;
 }

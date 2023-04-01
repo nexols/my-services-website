@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import { NavLink } from "react-router-dom";
-import contactImg from "./graphics/images/Banners/contact.jpg";
+import contactImg from "./graphics/images/Banners/contact.svg";
 
 const Contact = () => {
   const [data, setData] = useState({

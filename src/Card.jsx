@@ -15,9 +15,7 @@ const Card = (props) => {
           />
           <div className="card-body text-center">
             <h5 className="card-title fw-bold">{props.title}</h5>
-            <p className="card-text">
-              Some quick example text for the service.
-            </p>
+            <p className="card-text">{props.desc}</p>
             <NavLink to="*">
               <button
                 className="btn btn-outline-primary"
