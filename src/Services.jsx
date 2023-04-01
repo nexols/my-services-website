@@ -7,7 +7,8 @@ const Services = () => {
   return (
     <>
       <div className="banner">
-        <img className="w-100 p-0 m-0" src={serviceImg} sty alt="" />
+        <img className="w-100 p-0 m-0" src={serviceImg} alt="" />
+        {/* className="w-100 p-0 m-0" src={serviceImg} sty alt="" */}
       </div>
       <div className="container">
         <div className="row">

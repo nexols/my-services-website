@@ -40,13 +40,13 @@ const Navbar = () => {
             <div className="col-12">
               <nav className="navbar navbar-expand-lg bg">
                 <div className="container-fluid">
-                  <NavLink className="navbar-brand logo" to="/">
+                  <NavLink className="navbar-brand" to="/">
                     <img
+                      className="logo"
                       src={image}
                       style={{
                         width: "auto",
-                        height: "95px",
-                        marginTop: "10px",
+                        height: "70px",
                       }}
                       alt=""
                     />
