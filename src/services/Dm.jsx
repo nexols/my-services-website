@@ -8,7 +8,6 @@ function Dm() {
         className="container-fluid services_banner"
         style={{ backgroundColor: "#ed5547" }}
       >
-   
         <h1>Digital Marketing</h1>
       </div>
       <div className="container services-content">
