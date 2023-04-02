@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./contact.css";
 
 import { NavLink } from "react-router-dom";
 import contactImg from "./graphics/images/Banners/contact.svg";
@@ -31,10 +32,8 @@ const Contact = () => {
 
   return (
     <>
-      <div>
-        <div>
-          <img className="w-100 p-0 m-0" src={contactImg} alt="" />
-        </div>
+      <div className="contact-banner">
+        <img className="w-100 p-0 m-0" src={contactImg} alt="" />
       </div>
       <div className="container">
         <div className="row d-flex justify-content-center mt-5">

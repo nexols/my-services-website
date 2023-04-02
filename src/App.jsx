@@ -8,11 +8,13 @@ import About from "./About";
 import Footer from "./Footer";
 import Error from "./Error";
 import Submitted from "./formSub";
+import Dm from "./services/Dm";
+import Techsols from "./services/Techsols";
+import Sd from "./services/Sd";
 
 const App = () => {
   return (
     <>
-    
       <Navbar />
 
       <Routes>
@@ -24,6 +26,9 @@ const App = () => {
         <Route exact path="/contact" element={<Contact />} />
         <Route path="*" element={<Error />} />
         <Route path="/formSub" element={<Submitted />} />
+        <Route path="/digitalmarketing" element={<Dm />} />
+        <Route path="/softwaredevelopment" element={<Sd />} />
+        <Route path="/solutions" element={<Techsols />} />
       </Routes>
 
       <Footer />

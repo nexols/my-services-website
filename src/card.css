@@ -4,7 +4,7 @@
 }
 
 .card:hover {
-  box-shadow: #1976d2 0px 1px 16px -7px;
+  box-shadow: #505257 0px 1px 16px -7px;
   transition: 0.2s;
 }
 .card-body {
@@ -13,4 +13,8 @@
 
 .card img {
   margin-bottom: 9px;
+}
+
+.card-text {
+  text-align: center;
 }

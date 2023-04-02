@@ -19,9 +19,11 @@ const Common = (props) => {
                 <h1>
                   {props.name}
                   <strong className="name-strong"> Nexols</strong>
+                  {props.secHead}
                 </h1>
                 <h4 className="my-4">
-                  We are a team of talented developers making Web Apps
+                  Leave your tech problems to us - our expert team at Nexols has
+                  got you covered with tailored solutions.
                 </h4>
                 <div>
                   <NavLink to={props.visit} style={btnStyle}>

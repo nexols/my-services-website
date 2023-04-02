@@ -110,13 +110,17 @@ const Navbar = () => {
                               className="dropdown-content"
                             >
                               <li id="first">
-                                <NavLink to="*">Web Development</NavLink>
+                                <NavLink to="/softwaredevelopment">
+                                  Software Development
+                                </NavLink>
                               </li>
                               <li>
-                                <NavLink to="*">Digital Marketing</NavLink>
+                                <NavLink to="/digitalmarketing">
+                                  Digital Marketing
+                                </NavLink>
                               </li>
                               <li id="second">
-                                <NavLink to="*">Solutions</NavLink>
+                                <NavLink to="solutions">Solutions</NavLink>
                               </li>
                             </div>
                           )}

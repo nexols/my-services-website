@@ -1,0 +1,27 @@
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-top: 70px;
+  text-align: justify;
+  margin: 20px;
+}
+
+.services_banner {
+  position: relative;
+  bottom: 6px;
+}
+
+.services-content {
+  margin-top: 70px;
+}
+
+.services-content h4 {
+  margin-bottom: 30px;
+}

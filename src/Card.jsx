@@ -16,7 +16,7 @@ const Card = (props) => {
           <div className="card-body text-center">
             <h5 className="card-title fw-bold">{props.title}</h5>
             <p className="card-text">{props.desc}</p>
-            <NavLink to="*">
+            <NavLink to={props.link}>
               <button
                 className="btn btn-outline-primary"
                 style={{ transition: "0.5s" }}

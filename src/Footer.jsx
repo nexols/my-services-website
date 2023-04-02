@@ -18,14 +18,9 @@ const Footer = () => {
 
   return (
     <>
-      <footer
-        className="text-center d-flex justify-content-center"
-        style={{ color: "#ffff" }}
-      >
-        <p className="me-2" id="first-para">
-          All Rights Reserved &copy; {year}{" "}
-        </p>
-        <span className="me-2">|</span>
+      <footer style={{ color: "#ffff" }}>
+        <p id="first-para">All Rights Reserved &copy; {year} </p>
+        <span>|</span>
         <NavLink style={Link} to="*" element={<Error />}>
           <p className="terms">Terms & Conditions</p>
         </NavLink>
