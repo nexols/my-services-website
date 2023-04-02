@@ -5,7 +5,7 @@ import solBanner from "../graphics/images/Banners/services/sol.svg";
 function Techsols() {
   return (
     <div>
-      <div className="services_banner">
+      <div className="container-fluid services_banner">
         <img className="w-100 p-0 m-0" src={solBanner} alt="" />
       </div>
       <div className="container services-content">

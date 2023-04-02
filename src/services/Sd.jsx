@@ -5,7 +5,7 @@ import sdBanner from "../graphics/images/Banners/services/sd.svg";
 function Sd() {
   return (
     <div>
-      <div className="services_banner">
+      <div className="container-fluid services_banner">
         <img className="w-100 p-0 m-0" src={sdBanner} alt="" />
       </div>
       <div className="container services-content">

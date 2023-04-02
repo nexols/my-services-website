@@ -5,7 +5,7 @@ import dmBanner from "../graphics/images/Banners/services/dm.svg";
 function Dm() {
   return (
     <div>
-      <div className="services_banner">
+      <div className="container-fluid services_banner">
         <img className="w-100 p-0 m-0" src={dmBanner} alt="" />
       </div>
       <div className="container services-content">
