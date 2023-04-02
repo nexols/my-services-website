@@ -13,11 +13,26 @@ p {
   margin: 20px;
 }
 
-/* .services_banner {
-  position: relative;
-  bottom: 6px;
-} */
+.services_banner {
+  text-align: center;
+  background-color: #505257;
+  color: #ffff;
+  padding: 50px;
+}
 
+.services_banner h1 {
+  font-size: 60px;
+}
+@media (min-width: 425px) and (max-width: 768px) {
+  .services_banner h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 424px) {
+  .services_banner h1 {
+    font-size: 30px;
+  }
+}
 .services-content {
   margin-top: 70px;
 }

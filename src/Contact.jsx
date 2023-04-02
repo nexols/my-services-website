@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./contact.css";
 
 import { NavLink } from "react-router-dom";
-import contactImg from "./graphics/images/Banners/contact.svg";
 
 const Contact = () => {
   const [data, setData] = useState({
@@ -32,8 +31,8 @@ const Contact = () => {
 
   return (
     <>
-      <div className="contact-banner">
-        <img className="w-100 p-0 m-0" src={contactImg} alt="" />
+      <div className="container-fluid service-banner">
+        <h1>Contact Us</h1>
       </div>
       <div className="container">
         <div className="row d-flex justify-content-center mt-5">

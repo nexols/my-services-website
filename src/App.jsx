@@ -16,7 +16,6 @@ const App = () => {
   return (
     <>
       <Navbar />
-
       <Routes>
         <Route exact path="/" element={<Home />}>
           <Route path="/my-services-website" element={<Home />} />
@@ -28,7 +27,7 @@ const App = () => {
         <Route path="/formSub" element={<Submitted />} />
         <Route path="/digitalmarketing" element={<Dm />} />
         <Route path="/softwaredevelopment" element={<Sd />} />
-        <Route path="/solutions" element={<Techsols />} />
+        <Route path="/digitalsolutions" element={<Techsols />} />
       </Routes>
 
       <Footer />

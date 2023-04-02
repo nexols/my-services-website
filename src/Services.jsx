@@ -1,14 +1,14 @@
 import React from "react";
 import Card from "./Card";
 import Sdata from "./Sdata";
-import serviceImg from "./graphics/images/Banners/services.svg";
+// import serviceImg from "./graphics/images/Banners/services.svg";
 import "./service.css";
 
 const Services = () => {
   return (
     <>
-      <div className="service-banner">
-        <img className="w-100 p-0 m-0" src={serviceImg} alt="" />
+      <div className="container-fluid service-banner">
+        <h1>Services</h1>
       </div>
       <div className="container">
         <div className="row">

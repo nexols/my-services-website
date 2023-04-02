@@ -1,12 +1,15 @@
 import React from "react";
 import "./common_services.css";
-import dmBanner from "../graphics/images/Banners/services/dm.svg";
 
 function Dm() {
   return (
     <div>
-      <div className="container-fluid services_banner">
-        <img className="w-100 p-0 m-0" src={dmBanner} alt="" />
+      <div
+        className="container-fluid services_banner"
+        style={{ backgroundColor: "#ed5547" }}
+      >
+   
+        <h1>Digital Marketing</h1>
       </div>
       <div className="container services-content">
         <h4>

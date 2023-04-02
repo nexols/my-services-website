@@ -126,8 +126,8 @@ const Navbar = () => {
                                 </NavLink>
                               </li>
                               <li id="second">
-                                <NavLink style={navStyle} to="solutions">
-                                  Solutions
+                                <NavLink style={navStyle} to="digitalsolutions">
+                                  Digital Solutions
                                 </NavLink>
                               </li>
                             </div>

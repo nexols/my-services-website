@@ -10,7 +10,7 @@ import strategy from "./graphics/ions/strategy.png";
 const Sdata = [
   {
     imgsrc: coding,
-    title: "Web Development",
+    title: "Software Development",
     description:
       "Our web development company specializes in creating and maintaining high-quality websites and web applications for businesses and individuals using cutting-edge technologies.",
     link: "/softwaredevelopment",
@@ -44,7 +44,7 @@ const Sdata = [
     title: "Digital Solutions",
     description:
       "We offer a range of digital solutions to help businesses enhance their operations, improve efficiency, and achieve their goals through innovative technology.",
-    link: "/solutions",
+    link: "/digitalsolutions",
   },
 ];
 

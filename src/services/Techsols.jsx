@@ -1,12 +1,14 @@
 import React from "react";
 import "./common_services.css";
-import solBanner from "../graphics/images/Banners/services/sol.svg";
 
 function Techsols() {
   return (
     <div>
-      <div className="container-fluid services_banner">
-        <img className="w-100 p-0 m-0" src={solBanner} alt="" />
+      <div
+        className="container-fluid services_banner"
+        style={{ backgroundColor: "#f2bd2c" }}
+      >
+        <h1>Digital Solutions</h1>
       </div>
       <div className="container services-content">
         <h4>
