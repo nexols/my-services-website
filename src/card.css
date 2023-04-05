@@ -1,12 +1,9 @@
 .card {
   height: 100% !important;
   padding: 30px;
+  box-shadow: #505257 0px 6px 16px -8px;
 }
 
-.card:hover {
-  box-shadow: #505257 0px 1px 16px -7px;
-  transition: 0.2s;
-}
 .card-body {
   padding: 0 !important;
 }
