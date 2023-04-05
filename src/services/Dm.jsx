@@ -4,16 +4,13 @@ import "./common_services.css";
 function Dm() {
   return (
     <div>
-      <div
-        className="container-fluid services_banner"
-        style={{ backgroundColor: "#ed5547" }}
-      >
+      <div className="container-fluid services_banner" id="dm">
         <h1>Digital Marketing</h1>
       </div>
       <div className="container services-content">
-        <h4>
-          <strong> Our services include:</strong>
-        </h4>
+        <h3>
+          <strong> Our Digital Marketing services include:</strong>
+        </h3>
 
         <ul>
           <li>Search Engine Marketing/Search Engine Optimization</li>

@@ -31,7 +31,7 @@ const Contact = () => {
 
   return (
     <>
-      <div className="container-fluid service-banner">
+      <div className="container-fluid services_banner" id="contact">
         <h1>Contact Us</h1>
       </div>
       <div className="container">

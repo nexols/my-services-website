@@ -4,16 +4,13 @@ import "./common_services.css";
 function Sd() {
   return (
     <div>
-      <div
-        className="container-fluid services_banner"
-        style={{ backgroundColor: "rgb(72 139 247)" }}
-      >
+      <div className="container-fluid services_banner" id="sd">
         <h1>Software Development</h1>
       </div>
       <div className="container services-content">
-        <h4>
-          <strong> Our services include:</strong>
-        </h4>
+        <h3>
+          <strong> Our Software Development services include:</strong>
+        </h3>
 
         <ul>
           <li>Q/A Testing</li>

@@ -12,8 +12,10 @@
   position: absolute;
   top: 50px;
   z-index: 1;
-  background-color: rgba(123, 123, 123, 0.588);
+  background-color: rgb(123, 123, 123);
   border-radius: 10px;
+  height: auto;
+  width: auto;
 }
 
 .services-dropdown li {
@@ -30,6 +32,12 @@
 
 .services-dropdown li a:hover {
   text-decoration: underline;
+  color: #dfdfdf;
+  transition: 0.4s ease;
+}
+
+#dropdown-toggle {
+  display: contents;
 }
 
 #first {

@@ -1,21 +1,6 @@
-.service-banner {
-  text-align: center;
-  background-color: #505257;
-  color: #ffff;
-  padding: 50px;
-}
-
-.service-banner h1 {
-  font-size: 60px;
-}
-
-@media (min-width: 425px) and (max-width: 768px) {
-  .services-banner h1 {
-    font-size: 40px;
-  }
-}
-@media (max-width: 424px) {
-  .services-banner h1 {
-    font-size: 30px;
-  }
+#services {
+  background-image: url(./graphics/images/Banners/new/services.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }

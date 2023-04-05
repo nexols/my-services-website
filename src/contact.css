@@ -1,21 +1,8 @@
-.contact-banner {
-  text-align: center;
-  background-color: #505257;
-  color: #ffff;
-  padding: 50px;
-}
 
-.contact-banner h1 {
-  font-size: 60px;
-}
 
-@media (min-width: 425px) and (max-width: 768px) {
-  .services-banner h1 {
-    font-size: 40px;
-  }
-}
-@media (max-width: 424px) {
-  .services-banner h1 {
-    font-size: 30px;
-  }
+#contact {
+  background-image: url(./graphics/images/Banners/new/contact.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
