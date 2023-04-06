@@ -33,10 +33,10 @@ p {
 }
 @media (max-width: 462px) {
   .services_banner h1 {
-    font-size: 20px;
+    font-size: 30px;
   }
   .services_banner {
-    padding: 40px;
+    padding: 65px;
   }
 }
 .services-content {
