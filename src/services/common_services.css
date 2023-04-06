@@ -27,10 +27,15 @@ p {
   .services_banner h1 {
     font-size: 40px;
   }
+  .services_banner {
+    padding: 80px;
+  }
 }
 @media (max-width: 462px) {
   .services_banner h1 {
-    font-size: 30px;
+    font-size: 20px;
+  }
+  .services_banner {
     padding: 40px;
   }
 }
