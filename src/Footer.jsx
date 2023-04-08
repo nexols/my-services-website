@@ -18,7 +18,7 @@ const Footer = () => {
 
   return (
     <>
-      <footer style={{ color: "#ffff" }}>
+      <footer>
         <p id="first-para">All Rights Reserved &copy; {year} </p>
         <span>|</span>
         <NavLink style={Link} to="*" element={<Error />}>
