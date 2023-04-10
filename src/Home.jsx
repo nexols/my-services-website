@@ -9,8 +9,8 @@ const Home = () => {
         name="Revolutionize your business with "
         secHead=" where technology meets ingenuity!"
         imgsrc={homeimg}
-        visit="/services"
-        btnname="Get Started"
+        visit="/contact"
+        btnname="Get a quote"
       />
     </>
   );

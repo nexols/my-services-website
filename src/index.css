@@ -9,7 +9,7 @@
 
 body {
   min-height: 100%;
-  background-color: rgb(255, 255, 255);
+  background-color: #f3f3f3;
 }
 
 /* body {
@@ -18,3 +18,13 @@ body {
   background-size: cover;
   background-position: center;
 } */
+
+.btn-outline-primary {
+  border-color: #565656 !important;
+  color: #565656 !important;
+}
+
+.btn-outline-primary:hover {
+  color: white !important;
+  background-color: #565656 !important;
+}

@@ -1,28 +1,113 @@
 footer {
-  width: 100%;
-  color: #ffff;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 140px;
+  justify-content: space-between;
+  width: 100%;
   margin-top: 100px;
 }
 
-footer p {
+footer {
+  background-image: url(./graphics/images/Banners/footer.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.data-1,
+.data-2 {
+  width: 50% !important;
+}
+
+.data-1 {
+  color: #ffff;
+  display: flex;
+  align-items: center;
+  height: 140px;
+}
+
+.data-2 a {
+  margin: 0 10px;
+}
+
+#fbLogo {
+  margin-right: 0 !important;
+}
+
+.data-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.data-2 h3 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.data-1 p {
   margin: 0 !important;
 }
 
-footer span {
+.data-1 span {
   margin-left: 5px;
   margin-right: 5px;
 }
 
-@media (max-width: 575px) {
-  span {
+@media (min-width: 460px) and (max-width: 992px) {
+  .data-1 span {
     display: none;
   }
-  footer {
+  .data-1 {
     flex-direction: column;
+    justify-content: center;
+  }
+  #first-para {
+    order: 1;
+  }
+}
+
+@media (max-width: 459px) {
+  .data-1 span {
+    display: none;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .data-1 {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 5px;
+  }
+
+  .data-1 p {
+    text-align: center;
+  }
+
+  .data-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .data-2 h3 {
+    font-size: medium;
+  }
+
+  .social-icons a img {
+    height: 23px !important;
+  }
+  .social-icons a {
+    margin: 0 5px;
   }
   #first-para {
     order: 1;
@@ -32,12 +117,8 @@ footer span {
 .terms {
   color: #ffff;
 }
-
-footer {
-  background-image: url(./graphics/images/Banners/footer.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.terms:hover {
+  text-decoration: underline;
 }
 
 .social {

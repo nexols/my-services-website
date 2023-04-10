@@ -91,7 +91,8 @@ const Navbar = () => {
                         to="/services"
                       >
                         Services &nbsp;
-                        <span id="dropdown-toggle"
+                        <span
+                          id="dropdown-toggle"
                           onMouseEnter={toggleDropdown}
                           onMouseLeave={handleMouseLeave}
                           style={{ color: "black" }}

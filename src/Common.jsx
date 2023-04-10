@@ -22,7 +22,7 @@ const Common = (props) => {
                   {props.secHead}
                 </h1>
                 <h4 className="my-4">
-                  Leave your tech problems to us - our expert team at Nexols has
+                  Leave your tech problems to us! Our expert team at Nexols has
                   got you covered with tailored solutions.
                 </h4>
                 <div>

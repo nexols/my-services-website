@@ -8,8 +8,8 @@ const Home = () => {
       <Common
         name="Grow your business with"
         imgsrc={abtimg}
-        visit="/contact"
-        btnname="Contact Us"
+        visit="/services"
+        btnname="Get Started"
       />
     </>
   );
