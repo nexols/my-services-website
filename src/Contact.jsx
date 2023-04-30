@@ -1,34 +1,18 @@
 import React, { useState } from "react";
+import { useForm } from "@formspree/react";
 import "./contact.css";
-
-import { NavLink } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Contact = () => {
-  const [data, setData] = useState({
-    fullname: "",
-    phonenumber: "",
-    emailaddress: "",
-    message: "",
-  });
+  const [state, handleSubmit] = useForm("mnqywnwk");
+  const [isSubmitted, setIsSubmitted] = useState(false);
 
-  const inputEvent = (event) => {
-    const { name, value } = event.target;
-    setData((preVal) => {
-      return {
-        ...preVal,
-        [name]: value,
-      };
-    });
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    await handleSubmit(event);
+    setIsSubmitted(true);
   };
-
-  const formSubmit = (e) => {
-    e.preventDefault();
-  };
-
-  const sub = () => {
-    return alert(`Form submitted ${data.fullname}!`);
-  };
-
+  const navigate = useNavigate();
   return (
     <>
       <div className="container-fluid services_banner" id="contact">
@@ -37,79 +21,109 @@ const Contact = () => {
       <div className="container">
         <div className="row d-flex justify-content-center mt-5">
           <div className="col-sm-7 col-md-7 col-lg-5 col-9">
-            <form onSubmit={formSubmit}>
-              <div className="mb-3">
-                <label for="name" className="form-label">
-                  Full Name
-                </label>
-                <input
-                  type="text"
-                  className="form-control"
-                  id="name"
-                  placeholder="Enter your name"
-                  name="fullname"
-                  onChange={inputEvent}
-                  value={data.fullname}
-                />
-              </div>
-              <div className="mb-3">
-                <label for="phone" className="form-label">
-                  Phone
-                </label>
-                <input
-                  type="tel"
-                  className="form-control"
-                  id="phone"
-                  placeholder="Contact Number"
-                  name="phonenumber"
-                  onChange={inputEvent}
-                  value={data.phonenumber}
-                />
-              </div>
-              <div class="mb-3">
-                <label for="email" className="form-label">
-                  Email address
-                </label>
-                <input
-                  type="email"
-                  className="form-control"
-                  id="email"
-                  aria-describedby="emailHelp"
-                  placeholder="name@example.com"
-                  name="emailaddress"
-                  onChange={inputEvent}
-                  value={data.emailaddress}
-                />
-                <div id="emailHelp" className="form-text">
-                  We'll never share your email with anyone else.
+            {!isSubmitted ? (
+              <form onSubmit={onSubmit}>
+                <div className="mb-3">
+                  <label htmlFor="username" className="form-label">
+                    Full Name
+                  </label>
+                  <br />
+                  <input
+                    className="feeds w-100"
+                    type="text"
+                    name="username"
+                    placeholder="Enter your name"
+                    id="username"
+                    required
+                    autoComplete="off"
+                  />
                 </div>
-              </div>
+                <div className="mb-3">
+                  <label htmlFor="phonenumber" className="form-label">
+                    Phone
+                  </label>
+                  <br />
+                  <input
+                    className="feeds w-100"
+                    type="tel"
+                    name="phonenumber"
+                    placeholder="Contact Number"
+                    id="phonenumber"
+                    required
+                    autoComplete="off"
+                  />
+                </div>
+                <div className="mb-3">
+                  <label htmlFor="emailaddress" className="form-label">
+                    Email address
+                  </label>
+                  <br />
+                  <input
+                    className="feeds w-100"
+                    type="email"
+                    name="emailaddress"
+                    placeholder="name@example.com"
+                    id="emailaddress"
+                    required
+                    autoComplete="off"
+                  />
+                  <div id="emailHelp" className="form-text">
+                    We'll never share your email with anyone else.
+                  </div>
+                </div>
 
-              <div className="mb-3">
-                <label for="message" className="form-label">
-                  Message
-                </label>
-                <textarea
-                  type="textarea"
-                  className="form-control"
-                  id="exampleInputPassword1"
-                  rows="4"
-                  name="message"
-                  onChange={inputEvent}
-                  value={data.message}
-                />
-              </div>
-              <NavLink>
+                <div className="mb-3">
+                  <label htmlFor="message" className="form-label">
+                    Message
+                  </label>
+                  <textarea
+                    id="message"
+                    className="form-control w-100"
+                    rows="4"
+                    name="message"
+                    required
+                    autoComplete="off"
+                  />
+                </div>
+
                 <button
                   type="submit"
-                  class="btn btn-outline-primary"
+                  className="btn btn-outline-primary"
                   style={{ transition: "0.5s" }}
-                  onClick={sub}
+                  disabled={state.submitting}
                 >
                   Submit
                 </button>
-              </NavLink>
-            </form>
+              </form>
+            ) : (
+              <div className="container">
+                <div className="row d-flex justify-content-center mt-5">
+                  <div className="col-12">
+                    <form>
+                      <div>
+                        <h3
+                          style={{
+                            color: "green",
+                            textAlign: "justify",
+                          }}
+                        >
+                          Thank you for submitting your form! We appreciate your
+                          interest in our services and look forward to
+                          connecting with you soon.
+                        </h3>
+                        <button
+                          className="btn btn-outline-primary"
+                          onClick={() => navigate(-1)}
+                          style={{ transition: "0.5s" }}
+                        >
+                          Go back
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </div>

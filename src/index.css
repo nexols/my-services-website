@@ -20,11 +20,11 @@ body {
 } */
 
 .btn-outline-primary {
-  border-color: #565656 !important;
-  color: #565656 !important;
+  border-color: #323335 !important;
+  color: #323335 !important;
 }
 
 .btn-outline-primary:hover {
   color: white !important;
-  background-color: #565656 !important;
+  background-color: #323335 !important;
 }

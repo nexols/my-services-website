@@ -33,7 +33,7 @@ const Footer = () => {
               <h3>Follow Us!</h3>
               <div className="social-icons">
                 <NavLink
-                  to={"https://www.linkedin.com/company/nexols1/"}
+                  to={"https://www.linkedin.com/company/nexol/"}
                   className="social-logo"
                 >
                   <img
@@ -53,7 +53,7 @@ const Footer = () => {
                   />
                 </NavLink>
                 <NavLink
-                  to={"https://facebook.com/"}
+                  to={"https://www.facebook.com/nexolsteam"}
                   className="social-logo"
                   id="fbLogo"
                 >

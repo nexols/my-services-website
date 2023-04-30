@@ -1,5 +1,6 @@
 import React from "react";
 import "./common_services.css";
+import { NavLink } from "react-router-dom";
 
 function Techsols() {
   return (
@@ -26,6 +27,15 @@ function Techsols() {
           delivering customized solutions that meet your specific needs. Contact
           us today to learn more about how we can help your business succeed.
         </p>
+        <br />
+        <NavLink to="/contact">
+          <button
+            className="btn btn-outline-primary"
+            style={{ transition: "0.5s" }}
+          >
+            Contact Us
+          </button>
+        </NavLink>
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 import React from "react";
 import "./common_services.css";
+import { NavLink } from "react-router-dom";
 
 function Sd() {
   return (
@@ -32,6 +33,15 @@ function Sd() {
           user experiences. Let us help you take your business to the next level
           with our customized solutions. Contact us today to learn more.
         </p>
+        <br />
+        <NavLink to="/contact">
+          <button
+            className="btn btn-outline-primary"
+            style={{ transition: "0.5s" }}
+          >
+            Contact Us
+          </button>
+        </NavLink>
       </div>
     </div>
   );
