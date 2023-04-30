@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.5b979521.css",
-    "main.js": "/static/js/main.844baf7b.js",
+    "main.css": "/static/css/main.2bd2c62b.css",
+    "main.js": "/static/js/main.157cad98.js",
     "static/media/coding.png": "/static/media/coding.cd3b4af6b547cdbae8ca.png",
     "static/media/black-tech.svg": "/static/media/black-tech.e9c582589e0e664d97aa.svg",
-    "static/media/footer.svg": "/static/media/footer.441848068898272a5c90.svg",
+    "static/media/footer.svg": "/static/media/footer.87fbc1da03956da2ca10.svg",
     "static/media/about.png": "/static/media/about.f52c09942871705854da.png",
     "static/media/instagram.png": "/static/media/instagram.b81cb6b0da2158496140.png",
     "static/media/strategy.png": "/static/media/strategy.19d65146174d56805c10.png",
@@ -13,11 +13,11 @@
     "static/media/facebook.png": "/static/media/facebook.4c9ae4e9deff52283b48.png",
     "static/media/smile.png": "/static/media/smile.cf2cbe7a47e8066433fc.png",
     "index.html": "/index.html",
-    "main.5b979521.css.map": "/static/css/main.5b979521.css.map",
-    "main.844baf7b.js.map": "/static/js/main.844baf7b.js.map"
+    "main.2bd2c62b.css.map": "/static/css/main.2bd2c62b.css.map",
+    "main.157cad98.js.map": "/static/js/main.157cad98.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b979521.css",
-    "static/js/main.844baf7b.js"
+    "static/css/main.2bd2c62b.css",
+    "static/js/main.157cad98.js"
   ]
 }
