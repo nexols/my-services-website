@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b9dbea8d.css",
-    "main.js": "/static/js/main.56f67e98.js",
+    "main.css": "/static/css/main.5b979521.css",
+    "main.js": "/static/js/main.844baf7b.js",
     "static/media/coding.png": "/static/media/coding.cd3b4af6b547cdbae8ca.png",
     "static/media/black-tech.svg": "/static/media/black-tech.e9c582589e0e664d97aa.svg",
     "static/media/footer.svg": "/static/media/footer.441848068898272a5c90.svg",
@@ -13,11 +13,11 @@
     "static/media/facebook.png": "/static/media/facebook.4c9ae4e9deff52283b48.png",
     "static/media/smile.png": "/static/media/smile.cf2cbe7a47e8066433fc.png",
     "index.html": "/index.html",
-    "main.b9dbea8d.css.map": "/static/css/main.b9dbea8d.css.map",
-    "main.56f67e98.js.map": "/static/js/main.56f67e98.js.map"
+    "main.5b979521.css.map": "/static/css/main.5b979521.css.map",
+    "main.844baf7b.js.map": "/static/js/main.844baf7b.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9dbea8d.css",
-    "static/js/main.56f67e98.js"
+    "static/css/main.5b979521.css",
+    "static/js/main.844baf7b.js"
   ]
 }
