@@ -139,14 +139,14 @@ const Navbar = () => {
                         </div>
                       </NavLink>
 
-                      <NavLink
+                      {/* <NavLink
                         style={navStyle}
                         className="nav-link"
                         id="nav4"
                         to="*"
                       >
                         Portfolio
-                      </NavLink>
+                      </NavLink> */}
                       <NavLink
                         style={navStyle}
                         className="nav-link"

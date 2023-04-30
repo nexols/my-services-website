@@ -2,6 +2,7 @@
 
 .navbar-main {
   background-color: #151618;
+  box-shadow: 0px 0px 10px 2px ;
 }
 
 .nav-link {
@@ -190,7 +191,7 @@
     width: 65px;
   }
 
-  #nav4:after {
+  /* #nav4:after {
     content: "";
     position: absolute;
     background-color: #ffff;
@@ -202,14 +203,14 @@
   }
   #nav4:hover:after {
     width: 71px;
-  }
+  } */
   #nav5:after {
     content: "";
     position: absolute;
     background-color: #ffff;
     height: 3px;
     bottom: 14px;
-    left: 379px;
+    left: 282px;
     width: 0;
     transition: all ease-in 0.3s;
   }
