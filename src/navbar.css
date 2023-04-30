@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
 
 .navbar-main {
-  background-color: #565656;
+  background-color: #151618;
 }
 
 .nav-link {
@@ -13,7 +13,7 @@
   position: absolute;
   top: 50px;
   z-index: 1;
-  background-color: #696969;
+  background-color: #323335;
   border-radius: 10px;
   height: auto;
   width: 229px;
@@ -32,7 +32,7 @@
 }
 
 .services-dropdown li a:hover {
-  background-color: #606060;
+  background-color: #151618;
   padding: 10px;
   transition: 0.2s ease all;
   border-radius: 8px;

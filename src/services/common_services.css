@@ -57,23 +57,23 @@ p {
   padding-left: 0 !important;
 }
 
-#dm {
-  background-image: url(../graphics/images/Banners/new/marketing.svg);
+.services_banner {
+  background-image: url(../graphics/images/Banners/black-tech.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-#sd {
-  background-image: url(../graphics/images/Banners/new/development.svg);
+/* #sd {
+  background-image: url(../graphics/images/Banners/black-tech.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 #ts {
-  background-image: url(../graphics/images/Banners/new/solutions.svg);
+  background-image: url(../graphics/images/Banners/black-tech.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
+} */
