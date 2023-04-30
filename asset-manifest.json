@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.6b868a86.css",
+    "main.css": "/static/css/main.b9dbea8d.css",
     "main.js": "/static/js/main.56f67e98.js",
     "static/media/coding.png": "/static/media/coding.cd3b4af6b547cdbae8ca.png",
+    "static/media/black-tech.svg": "/static/media/black-tech.e9c582589e0e664d97aa.svg",
     "static/media/footer.svg": "/static/media/footer.441848068898272a5c90.svg",
     "static/media/about.png": "/static/media/about.f52c09942871705854da.png",
     "static/media/instagram.png": "/static/media/instagram.b81cb6b0da2158496140.png",
@@ -11,17 +12,12 @@
     "static/media/social.png": "/static/media/social.330ebef08632b8113e40.png",
     "static/media/facebook.png": "/static/media/facebook.4c9ae4e9deff52283b48.png",
     "static/media/smile.png": "/static/media/smile.cf2cbe7a47e8066433fc.png",
-    "static/media/contact.svg": "/static/media/contact.2cadd5f1090b6dee3979.svg",
-    "static/media/marketing.svg": "/static/media/marketing.302193c6b90197907748.svg",
-    "static/media/services.svg": "/static/media/services.8e31b7fbcc35cf23e55e.svg",
-    "static/media/solutions.svg": "/static/media/solutions.f9f4d035e0d092012fc7.svg",
-    "static/media/development.svg": "/static/media/development.cd5132efbf9323deecf2.svg",
     "index.html": "/index.html",
-    "main.6b868a86.css.map": "/static/css/main.6b868a86.css.map",
+    "main.b9dbea8d.css.map": "/static/css/main.b9dbea8d.css.map",
     "main.56f67e98.js.map": "/static/js/main.56f67e98.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b868a86.css",
+    "static/css/main.b9dbea8d.css",
     "static/js/main.56f67e98.js"
   ]
 }
