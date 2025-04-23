@@ -1,30 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Ubuntu", sans-serif;
+:root {
+  --custom-dark: #000000;
 }
 
 body {
-  min-height: 100%;
-  background-color: #f3f3f3;
+  font-family: "Ubuntu", sans-serif;
 }
 
-/* body {
-  background-image: url(./graphics/images/Banners/web\ bg.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-} */
-
-.btn-outline-primary {
-  border-color: #323335 !important;
-  color: #323335 !important;
+/* Override Bootstrap dark utilities */
+.bg-dark {
+  background-color: var(--custom-dark) !important;
+}
+.text-dark {
+  color: var(--custom-dark) !important;
+}
+.border-dark {
+  border-color: var(--custom-dark) !important;
 }
 
-.btn-outline-primary:hover {
-  color: white !important;
-  background-color: #323335 !important;
+.list-group-item {
+  background-color: transparent !important;
+  color: inherit !important;
 }
